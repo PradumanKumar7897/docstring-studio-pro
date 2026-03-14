@@ -45,3 +45,10 @@ pytest
 ## License
 
 MIT License — see [LICENSE](LICENSE)
+
+## Documentation
+
+| File | Description |
+|------|-------------|
+| [📊 Presentation](docs/Docstring_Studio_Pro_Presentation.pptx) | 12-slide project presentation |
+| [📄 Documentation](docs/Docstring_Studio_Pro_Documentation.docx) | 28-page technical documentation |
