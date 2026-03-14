@@ -1,0 +1,12 @@
+# Test Dependencies for Docstring Studio Pro
+# Install with: pip install -r requirements-test.txt --break-system-packages
+
+# Core testing
+pytest>=7.4.0
+pytest-cov>=4.1.0          # Coverage reports
+pytest-json-report>=1.5.0  # JSON output for dashboard
+pytest-mock>=3.12.0        # Mocker fixture
+pytest-asyncio>=0.23.0     # Async test support
+
+# Already in project (listed for completeness)
+click>=8.0.0

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docstring-studio-pro"
+version = "1.0.0"
+dependencies = [
+    "click",
+    "libcst",
+    "streamlit",
+    "streamlit-ace"
+]
+
+[tool.setuptools]
+packages = ["docgen"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
